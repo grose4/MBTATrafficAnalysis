@@ -30,8 +30,5 @@ Model that only loads initial data.
 OtherStations.ipynb
 Graphs for some other popular stations other than the main three.
 
-phase3_discussion.txt
-Description of the results from phase three.
-
 polyfit.ipynb
 Random Forest Regressor model to predict ridership based on our read in data.
