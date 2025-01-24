@@ -1,0 +1,32 @@
+October: 
+- Select a few APIs (MBTA, tomtom), gather the necessary data 
+- Clean data - Gabe
+- Making or finding plots, graphs, etc. - Atharva/Ayush
+- Writing and answering questions related to the model and other aspects of code - Daniel
+
+
+The central motivation of the project is to identify patterns within the MBTA, specifically seasonal passenger traffic and delays 
+within the system. Passengers are able to use this data to make more optimal choices regarding commuting, and the MBTA can use this 
+data to find areas where attention and maintenance are encouraged/necessary, and maybe find potential areas of expansion to serve 
+underrepresented communities. 
+
+
+Questions to ask:
+1. What time of day are delays in the MBTA most common? And what areas are the most affected? 
+Using this, commuters will know which areas are more prone to delays and may use other forms of transit. In addition, this can also 
+show areas the MBTA needs improvement. We can also expand this to which lines/buses of the MBTA are most prone to delays.
+
+2. What seasons/months have the highest passenger traffic, and how does this affect the frequency of trains? 
+If train service isn’t more frequent towards busier times of the year, it might indicate that the MBTA should operate more 
+trains/buses during those times and improve reliability and timeliness.
+
+Mbta ridership api: +-https://services1.arcgis.com/ceiitspzDAHrdGO1/arcgis/rest/services/Fall_2023_MBTA_Rail_Ridership_Data_by_SDP_Time_Period_Route_Line_and_Stop/''FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=json
+
+Mbta ridership by stop (fall23):
+https://mbta-massdot.opendata.arcgis.com/datasets/80a379ebaa374cfd836ca4d3880ceda4_0/explore
+Api url: https://services1.arcgis.com/ceiitspzDAHrdGO1/arcgis/rest/services/Fall_2023_MBTA_Rail_Ridership_Data_by_SDP_Time_Period_Route_Line_and_Stop/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson
+
+
+
+Model 1: Polynomial regression 
+Model 2: Classification
